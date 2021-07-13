@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="SquareRootCalculator.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SquareRootCalculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="Black">
+
+    <Grid RequestedTheme="Default">
+        <TextBox x:Name="inputTextBox" Text="" TextWrapping="Wrap" FontFamily="Arial"  Margin="42,133,1031,545" FontSize="20">
+        </TextBox>
+        <TextBlock x:Name="resultsTextBlock" Text="" TextWrapping="Wrap" Margin="42,229,1031,451"  FontFamily="Arial" FontSize="20">
+        </TextBlock>
+        <TextBlock x:Name="directionTextBlock" Text="Enter a number to calculate the square root." TextWrapping="Wrap" Margin="42,61,830,639" FontSize="20" FontFamily="Arial" >
+        </TextBlock>
+        <Button x:Name="calculateButton" Content="Calculate" FontFamily="Arial" Click="clickCalculate" Margin="386,133,0,0" VerticalAlignment="Top" Height="41" Width="134" FontSize="20"/>
+
+    </Grid>
+</Page>
